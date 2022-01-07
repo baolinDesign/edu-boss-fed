@@ -14,6 +14,7 @@ module.exports = {
   },
   // 自定义编码校验规则
   rules: {
+    "@typescript-eslint/explicit-module-boundary-types": "off",
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off'
   }
