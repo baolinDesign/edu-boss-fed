@@ -127,7 +127,7 @@ export default Vue.extend({
   },
 
   created () {
-    this.loadRoles()
+    // this.loadRoles()
   },
 
   methods: {
